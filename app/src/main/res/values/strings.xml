@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CounterApp</string>
+    <string name="count">Count</string>
+    <string name="count_1">++</string>
+    <string name="count_2">--</string>
+    <string name="reset">Reset</string>
+</resources>

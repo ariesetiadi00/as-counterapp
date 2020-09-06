@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+    
+    
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="250dp"
+        android:text="@string/count"
+        android:textSize="48sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count_1"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="@color/darkGrey"
+            />
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count_2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="@color/darkGrey"
+            android:layout_marginHorizontal="10dp"
+            />
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="@color/darkGrey"
+            />
+    </LinearLayout>
+
+    
+</LinearLayout>
